@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\judac\\OneDrive\\Documentos\\GitHub\\.net\\USTA\\ustaVideos\\ustaVideos\\ustaVideos.csproj": {}
+    "C:\\Users\\judac\\OneDrive\\Documentos\\GitHub\\.net core\\USTA learning\\ustaVideos\\ustaVideos\\ustaVideos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\judac\\OneDrive\\Documentos\\GitHub\\.net\\USTA\\ustaVideos\\ustaVideos\\ustaVideos.csproj": {
+    "C:\\Users\\judac\\OneDrive\\Documentos\\GitHub\\.net core\\USTA learning\\ustaVideos\\ustaVideos\\ustaVideos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\judac\\OneDrive\\Documentos\\GitHub\\.net\\USTA\\ustaVideos\\ustaVideos\\ustaVideos.csproj",
+        "projectUniqueName": "C:\\Users\\judac\\OneDrive\\Documentos\\GitHub\\.net core\\USTA learning\\ustaVideos\\ustaVideos\\ustaVideos.csproj",
         "projectName": "ustaVideos",
-        "projectPath": "C:\\Users\\judac\\OneDrive\\Documentos\\GitHub\\.net\\USTA\\ustaVideos\\ustaVideos\\ustaVideos.csproj",
+        "projectPath": "C:\\Users\\judac\\OneDrive\\Documentos\\GitHub\\.net core\\USTA learning\\ustaVideos\\ustaVideos\\ustaVideos.csproj",
         "packagesPath": "C:\\Users\\judac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\judac\\OneDrive\\Documentos\\GitHub\\.net\\USTA\\ustaVideos\\ustaVideos\\obj\\",
+        "outputPath": "C:\\Users\\judac\\OneDrive\\Documentos\\GitHub\\.net core\\USTA learning\\ustaVideos\\ustaVideos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\judac\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -57,8 +57,18 @@
               "version": "[8.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[8.0.2, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql.Design": {
+              "target": "Package",
+              "version": "[1.1.2, )"
             }
           },
           "imports": [

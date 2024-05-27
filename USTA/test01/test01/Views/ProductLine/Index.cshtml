@@ -1,0 +1,40 @@
+﻿@model IEnumerable<ProductLine>
+
+@{
+    ViewData["Title"] = "List of ProductLine";
+}
+
+<table>
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.DescInText) </th>
+            <th>@Html.DisplayNameFor(model => model.DescInHtml) </th>
+            <th>@Html.DisplayNameFor(model => model.Image) </th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td class="text-start small">
+                    @item.DescInText
+                </td>
+                <td class="text-start small">
+                    @item.DescInHtml
+                </td>
+                <td>
+                    <img src="@Html.DisplayFor(modelItem=> item.Image)" alt=" @Html.DisplayFor(modelItem => item.Image)" />
+
+                </td>
+
+                <td class="alig-middle">
+                    <a class="btn btn-outline-primary"><i class="bi bi-pencil-square"></i>Edit</a>
+                    <a class="btn btn-outline-info"><i class="bi bi-eye"></i>Details</a>
+                    <a class="btn btn-outline-danger"><i class="bi bi-trash"></i>Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

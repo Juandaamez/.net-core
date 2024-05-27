@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hecto\\OneDrive\\Documentos\\UniversidadMauro\\Asp\\usta_videos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4033B82C-C37F-40AD-AB8D-245350C8BEFC}|usta_videos\\usta_videos.csproj|c:\\users\\hecto\\onedrive\\documentos\\universidadmauro\\asp\\usta_videos\\usta_videos\\views\\actor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4033B82C-C37F-40AD-AB8D-245350C8BEFC}|usta_videos\\usta_videos.csproj|solutionrelative:usta_videos\\views\\actor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4033B82C-C37F-40AD-AB8D-245350C8BEFC}|usta_videos\\usta_videos.csproj|c:\\users\\hecto\\onedrive\\documentos\\universidadmauro\\asp\\usta_videos\\usta_videos\\views\\cinema\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4033B82C-C37F-40AD-AB8D-245350C8BEFC}|usta_videos\\usta_videos.csproj|solutionrelative:usta_videos\\views\\cinema\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4033B82C-C37F-40AD-AB8D-245350C8BEFC}|usta_videos\\usta_videos.csproj|c:\\users\\hecto\\onedrive\\documentos\\universidadmauro\\asp\\usta_videos\\usta_videos\\models\\cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4033B82C-C37F-40AD-AB8D-245350C8BEFC}|usta_videos\\usta_videos.csproj|solutionrelative:usta_videos\\models\\cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4033B82C-C37F-40AD-AB8D-245350C8BEFC}|usta_videos\\usta_videos.csproj|c:\\users\\hecto\\onedrive\\documentos\\universidadmauro\\asp\\usta_videos\\usta_videos\\views\\director\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4033B82C-C37F-40AD-AB8D-245350C8BEFC}|usta_videos\\usta_videos.csproj|solutionrelative:usta_videos\\views\\director\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4033B82C-C37F-40AD-AB8D-245350C8BEFC}|usta_videos\\usta_videos.csproj|c:\\users\\hecto\\onedrive\\documentos\\universidadmauro\\asp\\usta_videos\\usta_videos\\controllers\\actorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4033B82C-C37F-40AD-AB8D-245350C8BEFC}|usta_videos\\usta_videos.csproj|solutionrelative:usta_videos\\controllers\\actorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4033B82C-C37F-40AD-AB8D-245350C8BEFC}|usta_videos\\usta_videos.csproj|c:\\users\\hecto\\onedrive\\documentos\\universidadmauro\\asp\\usta_videos\\usta_videos\\models\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4033B82C-C37F-40AD-AB8D-245350C8BEFC}|usta_videos\\usta_videos.csproj|solutionrelative:usta_videos\\models\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4033B82C-C37F-40AD-AB8D-245350C8BEFC}|usta_videos\\usta_videos.csproj|c:\\users\\hecto\\onedrive\\documentos\\universidadmauro\\asp\\usta_videos\\usta_videos\\controllers\\directorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4033B82C-C37F-40AD-AB8D-245350C8BEFC}|usta_videos\\usta_videos.csproj|solutionrelative:usta_videos\\controllers\\directorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hecto\\OneDrive\\Documentos\\UniversidadMauro\\Asp\\usta_videos\\usta_videos\\Views\\Actor\\Index.cshtml",
+              "RelativeDocumentMoniker": "usta_videos\\Views\\Actor\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hecto\\OneDrive\\Documentos\\UniversidadMauro\\Asp\\usta_videos\\usta_videos\\Views\\Actor\\Index.cshtml",
+              "RelativeToolTip": "usta_videos\\Views\\Actor\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-22T22:38:37.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hecto\\OneDrive\\Documentos\\UniversidadMauro\\Asp\\usta_videos\\usta_videos\\Views\\Cinema\\Index.cshtml",
+              "RelativeDocumentMoniker": "usta_videos\\Views\\Cinema\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hecto\\OneDrive\\Documentos\\UniversidadMauro\\Asp\\usta_videos\\usta_videos\\Views\\Cinema\\Index.cshtml",
+              "RelativeToolTip": "usta_videos\\Views\\Cinema\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-22T22:33:49.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cinema.cs",
+              "DocumentMoniker": "C:\\Users\\hecto\\OneDrive\\Documentos\\UniversidadMauro\\Asp\\usta_videos\\usta_videos\\Models\\Cinema.cs",
+              "RelativeDocumentMoniker": "usta_videos\\Models\\Cinema.cs",
+              "ToolTip": "C:\\Users\\hecto\\OneDrive\\Documentos\\UniversidadMauro\\Asp\\usta_videos\\usta_videos\\Models\\Cinema.cs",
+              "RelativeToolTip": "usta_videos\\Models\\Cinema.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAiwBUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T22:30:25.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DirectorController.cs",
+              "DocumentMoniker": "C:\\Users\\hecto\\OneDrive\\Documentos\\UniversidadMauro\\Asp\\usta_videos\\usta_videos\\Controllers\\DirectorController.cs",
+              "RelativeDocumentMoniker": "usta_videos\\Controllers\\DirectorController.cs",
+              "ToolTip": "C:\\Users\\hecto\\OneDrive\\Documentos\\UniversidadMauro\\Asp\\usta_videos\\usta_videos\\Controllers\\DirectorController.cs",
+              "RelativeToolTip": "usta_videos\\Controllers\\DirectorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T22:23:51.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ActorController.cs",
+              "DocumentMoniker": "C:\\Users\\hecto\\OneDrive\\Documentos\\UniversidadMauro\\Asp\\usta_videos\\usta_videos\\Controllers\\ActorController.cs",
+              "RelativeDocumentMoniker": "usta_videos\\Controllers\\ActorController.cs",
+              "ToolTip": "C:\\Users\\hecto\\OneDrive\\Documentos\\UniversidadMauro\\Asp\\usta_videos\\usta_videos\\Controllers\\ActorController.cs",
+              "RelativeToolTip": "usta_videos\\Controllers\\ActorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T22:15:03.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hecto\\OneDrive\\Documentos\\UniversidadMauro\\Asp\\usta_videos\\usta_videos\\Views\\Director\\Index.cshtml",
+              "RelativeDocumentMoniker": "usta_videos\\Views\\Director\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hecto\\OneDrive\\Documentos\\UniversidadMauro\\Asp\\usta_videos\\usta_videos\\Views\\Director\\Index.cshtml",
+              "RelativeToolTip": "usta_videos\\Views\\Director\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-22T22:13:10.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Actor.cs",
+              "DocumentMoniker": "C:\\Users\\hecto\\OneDrive\\Documentos\\UniversidadMauro\\Asp\\usta_videos\\usta_videos\\Models\\Actor.cs",
+              "RelativeDocumentMoniker": "usta_videos\\Models\\Actor.cs",
+              "ToolTip": "C:\\Users\\hecto\\OneDrive\\Documentos\\UniversidadMauro\\Asp\\usta_videos\\usta_videos\\Models\\Actor.cs",
+              "RelativeToolTip": "usta_videos\\Models\\Actor.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T21:36:59.414Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

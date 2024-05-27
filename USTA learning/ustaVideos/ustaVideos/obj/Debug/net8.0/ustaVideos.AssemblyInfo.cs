@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ustaVideos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ad6449ac7d92ab3498f11ffb2eae10d4485be6e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ustaVideos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ustaVideos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
