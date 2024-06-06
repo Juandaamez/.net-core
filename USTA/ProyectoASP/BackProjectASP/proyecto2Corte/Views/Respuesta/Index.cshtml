@@ -1,0 +1,38 @@
+﻿@model IEnumerable<proyecto2Corte.Models.Respuesta>
+
+@{
+    ViewData["Title"] = "Lista de respuestas";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>Lista de respuestas</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Fecha de Respuesta</th>
+                    <th>Texto de la Respuesta</th>
+                    <th>Usuario</th>
+                    <th>Peticion</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.FechaRespuesta?.ToString("yyyy-MM-dd")</td>
+                        <td>@item.RespuestaTexto</td>
+                        <td>@item.Usuario.Nombre</td>
+                        <td>@item.Peticion.Asunto</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.IdRespuesta" class="btn btn-primary">Editar</a>
+                            <a asp-action="Details" asp-route-id="@item.IdRespuesta" class="btn btn-info">Detalles</a>
+                            <a asp-action="Delete" asp-route-id="@item.IdRespuesta" class="btn btn-danger">Eliminar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

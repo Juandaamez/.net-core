@@ -1,0 +1,42 @@
+﻿@model IEnumerable<proyecto2Corte.Models.Peticion>
+
+@{
+    ViewData["Title"] = "Lista de peticiones";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>Lista de peticiones</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Fecha de Peticion</th>
+                    <th>Nombre</th>
+                    <th>Documento</th>
+                    <th>Correo</th>
+                    <th>Asunto</th>
+                    <th>Descripción</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.FechaPeticion.ToString("yyyy-MM-dd")</td>
+                        <td>@item.Nombre</td>
+                        <td>@item.Documento</td>
+                        <td>@item.Correo</td>
+                        <td>@item.Asunto</td>
+                        <td>@item.Descripcion</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.IdPeticion" class="btn btn-primary">Editar</a>
+                            <a asp-action="Details" asp-route-id="@item.IdPeticion" class="btn btn-info">Detalles</a>
+                            <a asp-action="Delete" asp-route-id="@item.IdPeticion" class="btn btn-danger">Eliminar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

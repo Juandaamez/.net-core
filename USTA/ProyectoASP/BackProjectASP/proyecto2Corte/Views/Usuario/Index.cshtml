@@ -1,0 +1,36 @@
+﻿@model IEnumerable<proyecto2Corte.Models.Usuario>
+
+@{
+    ViewData["Title"] = "Lista de usuarios";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>Lista de usuarios</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Correo Electrónico</th>
+                    <th>Rol</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Nombre</td>
+                        <td>@item.CorreoElectronico</td>
+                        <td>@item.Rol</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.IdUsuario" class="btn btn-primary">Editar</a>
+                            <a asp-action="Details" asp-route-id="@item.IdUsuario" class="btn btn-info">Detalles</a>
+                            <a asp-action="Delete" asp-route-id="@item.IdUsuario" class="btn btn-danger">Eliminar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

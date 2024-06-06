@@ -1,0 +1,24 @@
+﻿@model proyecto2Corte.Models.Respuesta
+
+@{
+    ViewData["Title"] = "Detalles de la respuesta";
+}
+
+<div class="row text">
+    <div class="col-md-8 offset-md-2">
+        <h3>Detalles de la respuesta</h3>
+        <div class="form-group">
+            <label asp-for="FechaRespuesta" class="control-label"></label>
+            <input asp-for="FechaRespuesta" type="datetime-local" class="form-control" readonly />
+        </div>
+        <div class="form-group">
+            <label asp-for="RespuestaTexto" class="control-label"></label>
+            <textarea asp-for="RespuestaTexto" class="form-control" readonly></textarea>
+        </div>
+        <div class="form-group">
+            <a asp-action="Edit" asp-route-id="@Model.IdRespuesta" class="btn btn-primary">Editar</a>
+            <a asp-action="Delete" asp-route-id="@Model.IdRespuesta" class="btn btn-danger">Eliminar</a>
+            <a asp-action="Index" class="btn btn-secondary">Volver a la lista</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,36 @@
+﻿@model proyecto2Corte.Models.Respuesta
+
+@{
+    ViewData["Title"] = "Crear una nueva respuesta";
+}
+
+<div class="row text">
+    <div class="col-md-8 offset-md-2">
+        <h3>Crear una nueva respuesta</h3>
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="FechaRespuesta" class="control-label"></label>
+                <input asp-for="FechaRespuesta" type="datetime-local" class="form-control" />
+                <span asp-validation-for="FechaRespuesta" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RespuestaTexto" class="control-label"></label>
+                <textarea asp-for="RespuestaTexto" class="form-control"></textarea>
+                <span asp-validation-for="RespuestaTexto" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdUsuario" class="control-label"></label>
+                <select asp-for="IdUsuario" class="form-control" asp-items="ViewBag.IdUsuario"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdPeticion" class="control-label"></label>
+                <select asp-for="IdPeticion" class="form-control" asp-items="ViewBag.IdPeticion"></select>
+            </div>
+            <div class="form-group mt-2">
+                <input type="submit" value="Crear" class="btn btn-success" />
+                <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+            </div>
+        </form>
+    </div>
+</div>

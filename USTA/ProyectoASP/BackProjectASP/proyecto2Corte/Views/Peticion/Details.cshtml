@@ -1,0 +1,40 @@
+﻿@model proyecto2Corte.Models.Peticion
+
+@{
+    ViewData["Title"] = "Detalles de la petición: " + Model.Asunto;
+}
+
+<div class="row text">
+    <div class="col-md-8 offset-md-2">
+        <h3>Detalles de la petición: @Model.Asunto</h3>
+        <div class="form-group">
+            <label asp-for="FechaPeticion" class="control-label"></label>
+            <input asp-for="FechaPeticion" class="form-control" readonly />
+        </div>
+        <div class="form-group">
+            <label asp-for="Nombre" class="control-label"></label>
+            <input asp-for="Nombre" class="form-control" readonly />
+        </div>
+        <div class="form-group">
+            <label asp-for="Documento" class="control-label"></label>
+            <input asp-for="Documento" class="form-control" readonly />
+        </div>
+        <div class="form-group">
+            <label asp-for="Correo" class="control-label"></label>
+            <input asp-for="Correo" class="form-control" readonly />
+        </div>
+        <div class="form-group">
+            <label asp-for="Asunto" class="control-label"></label>
+            <input asp-for="Asunto" class="form-control" readonly />
+        </div>
+        <div class="form-group">
+            <label asp-for="Descripcion" class="control-label"></label>
+            <textarea asp-for="Descripcion" class="form-control" readonly></textarea>
+        </div>
+        <div class="form-group mt-2">
+            <a asp-action="Edit" asp-route-id="@Model.IdPeticion" class="btn btn-primary">Editar</a>
+            <a asp-action="Delete" asp-route-id="@Model.IdPeticion" class="btn btn-danger">Eliminar</a>
+            <a asp-action="Index" class="btn btn-secondary">Volver a la lista</a>
+        </div>
+    </div>
+</div>

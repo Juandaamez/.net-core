@@ -1,0 +1,51 @@
+/* styles.css */
+body {
+    padding-top: 56px; /* Para que el contenido no quede debajo del navbar */
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.form-control, .form-check-input {
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+
+/* Footer styles */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #007bff; /* Fondo azul, utilizando el color primario de Bootstrap */
+    color: white; /* Texto blanco para mayor contraste */
+    padding: 20px; /* Espaciado interno para una mejor apariencia */
+    text-align: center; /* Centrar el texto */
+}
+
+.centered-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%; /* Ajusta el tamaño de la imagen según tus necesidades */
+}
+
+.paragraph {
+    margin: 0; /* Elimina el margen del párrafo */
+    font-size: 13px;
+}
+
+.paragraph span {
+    display: block; /* Asegura que cada span esté en una línea separada */
+    margin: 5px 0; /* Ajusta el margen entre las líneas según tus necesidades */
+}

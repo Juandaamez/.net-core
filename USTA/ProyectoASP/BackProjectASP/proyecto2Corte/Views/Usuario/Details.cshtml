@@ -1,0 +1,24 @@
+﻿@model proyecto2Corte.Models.Usuario
+
+@{
+    ViewData["Title"] = "Detalles del usuario";
+}
+
+<div class="row text">
+    <div class="col-md-8 offset-md-2">
+        <h3>Detalles del usuario</h3>
+        <div class="form-group">
+            <label asp-for="Nombre" class="control-label"></label>
+            <input asp-for="Nombre" class="form-control" readonly />
+        </div>
+        <div class="form-group">
+            <label asp-for="CorreoElectronico" class="control-label"></label>
+            <input asp-for="CorreoElectronico" class="form-control" readonly />
+        </div>
+        <div class="form-group mt-2">
+            <a asp-action="Edit" asp-route-id="@Model.IdUsuario" class="btn btn-primary">Editar</a>
+            <a asp-action="Delete" asp-route-id="@Model.IdUsuario" class="btn btn-danger">Eliminar</a>
+            <a asp-action="Index" class="btn btn-secondary">Volver a la lista</a>
+        </div>
+    </div>
+</div>
